@@ -1,48 +1,53 @@
-# hr-app
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+## About
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+Demonstrating Refine's Capabilities for Building Enterprise-Level HR Tools
 
-## Getting Started
+HR Management App Example built using [Refine](https://refine.dev/), [Material UI](https://mui.com/material-ui/) and Deploying to [Digital Ocean Platform](https://www.digitalocean.com/)
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+⭐ **You can view the live demo of the application [here](https://refine-hr-community-4nihf.ondigitalocean.app).**
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+## Features
 
-## Available Scripts
+- **Login page**: Allows users to log in as either a manager or an employee. Managers have access to the `Time Off` and `Requests` pages, while employees only have access to the `Time Off` page.
 
-### Running the development server.
+- **Time Off pages**: Allows employees to request, view, and cancel their time off. Also managers can assign new time offs.
 
-```bash
-    npm run dev
-```
+- **Requests page**: Accessible only to HR managers for approving or rejecting time off requests.
 
-### Building for production.
+- **Access Control**: Different roles have different access levels to the application.
+
+## Try this example on your local
 
 ```bash
-    npm run build
+npm create refine-app@latest -- --example refine-hr-ce
 ```
 
-### Running the production server.
+## Try this example on CodeSandbox
 
-```bash
-    npm run start
-```
+[![Open refine-hr-ce example from refine](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/github/refinedev/refine/tree/master/examples/refine-hr-ce?view=preview&theme=dark&codemirror=1)
 
-## Learn More
+## Screenshots
 
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
+![Login Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/refine-hr-do/login.png)
 
-- **NestJS Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Material UI** [Docs](https://refine.dev/docs/ui-frameworks/mui/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
+ <br />
 
-## License
+![Login Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/refine-hr-do/manager-dashboard.png)
 
-MIT
+ <br />
+
+![Login Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/refine-hr-do/employee-request.png)
+
+ <br />
+
+![Login Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/refine-hr-do/manager-approve.png)
+
+ <br />
+
+![Login Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/refine-hr-do/manager.png)
+<br />
+
+![Login Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/refine-hr-do/request-edit.png)
+
+ <br />
