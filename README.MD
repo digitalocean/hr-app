@@ -5,7 +5,7 @@ Demonstrating Refine's Capabilities for Building Enterprise-Level HR Tools
 
 HR Management App Example built using [Refine](https://refine.dev/), [Material UI](https://mui.com/material-ui/) and Deploying to [Digital Ocean Platform](https://www.digitalocean.com/)
 
-⭐ **You can view the live demo of the application [here](https://refine-hr-community-4nihf.ondigitalocean.app).**
+⭐ **You can view the live demo of the application [here](https://lionfish-app-srys8.ondigitalocean.app/).**
 
 ## Features
 
