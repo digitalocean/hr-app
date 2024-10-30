@@ -20,12 +20,11 @@ HR Management App Example built using [Refine](https://refine.dev/), [Material U
 ## Try this example on your local
 
 ```bash
-npm create refine-app@latest -- --example refine-hr-ce
+git clone https://github.com/OliverMensahDev/hr-app.git
+cd hr-app 
+npm install
+npm run dev
 ```
-
-## Try this example on CodeSandbox
-
-[![Open refine-hr-ce example from refine](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/github/refinedev/refine/tree/master/examples/refine-hr-ce?view=preview&theme=dark&codemirror=1)
 
 ## Screenshots
 
